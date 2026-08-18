@@ -15,7 +15,9 @@
         "--reload-include",
         "src/static/*"
       ],
-      "jinja": true
+      "jinja": true,
+       "cwd": "${workspaceFolder}",
+  "console": "integratedTerminal"
     }
   ]
 }
